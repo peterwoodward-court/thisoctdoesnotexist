@@ -12,8 +12,6 @@ random_image = random.choice([
     if os.path.isfile(os.path.join(path, x))
 ])
 
-st.text(random_image)
-
 image = Image.open('images/' + random_image)
 st.image(image)
 
