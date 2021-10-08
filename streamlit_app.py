@@ -14,6 +14,6 @@ random_image = random.choice([
 
 st.title(random_image)
 
-image = Image.open('/Users/peterwoodward-court/Documents/thisoctdoesnotexist/images/' + random_image)
+image = Image.open('thisoctdoesnotexist/images/' + random_image)
 st.image(image)
 
