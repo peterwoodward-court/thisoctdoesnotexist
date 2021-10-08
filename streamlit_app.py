@@ -14,6 +14,6 @@ random_image = random.choice([
 
 st.text(random_image)
 
-image = Image.open('thisoctdoesnotexist/images/' + random_image)
+image = Image.open('images/' + random_image)
 st.image(image)
 
