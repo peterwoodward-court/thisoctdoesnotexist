@@ -6,7 +6,7 @@ import os
 
 st.title('This OCT does not exist')
 
-path = r"/Users/peterwoodward-court/Documents/thisoctdoesnotexist/images/"
+path = r"images/"
 random_image = random.choice([
     x for x in os.listdir(path)
     if os.path.isfile(os.path.join(path, x))
